@@ -22,12 +22,12 @@ namespace Rock.Jobs
     [IntegerField( "Image Size", "The image height in pixels to request from Gravatar.", true, 200 )]
 
     [DisallowConcurrentExecution]
-    public class Gravatar : IJob
+    public class GravatarFetch : IJob
     {
         /// <summary>
         /// Initializes a new instance of the <see cref="FindGravatarImages"/> class.
         /// </summary>
-        public Gravatar( )
+        public GravatarFetch( )
         {
         }
 
