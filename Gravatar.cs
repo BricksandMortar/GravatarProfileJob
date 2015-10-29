@@ -12,7 +12,7 @@ using Rock.Attribute;
 using Rock.Data;
 using Rock.Model;
 
-namespace Rock.Jobs
+namespace com.bricksandmortar.Gravatar
 {
 
     /// <summary>
@@ -22,12 +22,12 @@ namespace Rock.Jobs
     [IntegerField( "Image Size", "The image height in pixels to request from Gravatar.", true, 200 )]
 
     [DisallowConcurrentExecution]
-    public class GravatarFetch : IJob
+    public class Gravatar : IJob
     {
         /// <summary>
         /// Initializes a new instance of the <see cref="FindGravatarImages"/> class.
         /// </summary>
-        public GravatarFetch( )
+        public Gravatar( )
         {
         }
 

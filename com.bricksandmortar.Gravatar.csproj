@@ -35,16 +35,16 @@
       <HintPath>..\RockWeb\Bin\DotLiquid.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework">
-      <HintPath>..\RockWeb\Bin\EntityFramework.dll</HintPath>
+      <HintPath>..\bricksandmortar.studio.com_Rockit\RockWeb\Bin\EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="Quartz">
-      <HintPath>..\RockWeb\Bin\Quartz.dll</HintPath>
+      <HintPath>..\bricksandmortar.studio.com_Rockit\RockWeb\Bin\Quartz.dll</HintPath>
     </Reference>
     <Reference Include="RestSharp">
-      <HintPath>..\RockWeb\Bin\RestSharp.dll</HintPath>
+      <HintPath>..\Rock\Rock\bin\RestSharp.dll</HintPath>
     </Reference>
     <Reference Include="Rock">
-      <HintPath>..\RockWeb\Bin\Rock.dll</HintPath>
+      <HintPath>..\bricksandmortar.studio.com_Rockit\RockWeb\Bin\Rock.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -57,7 +57,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GravatarFetch.cs" />
+    <Compile Include="Gravatar.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
